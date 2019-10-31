@@ -7,6 +7,7 @@ for x in Student_Number:
             if (int(x) % i) == 0:
                 break
         else:
+            # print(x)
             p = p +1
 print("1. The number of prime numbers in this student number is:",p,"\n")
 import random
